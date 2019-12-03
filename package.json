@@ -1,0 +1,27 @@
+{
+  "name": "mango-webpack-user-module",
+  "version": "0.0.1",
+  "description": "Description Mango Automation user module example using webpack",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "clean-webpack-plugin": "~0.1.19",
+    "css-loader": "~1.0.0",
+    "file-loader": "~2.0.0",
+    "html-loader": "~0.5.5",
+    "style-loader": "~0.23.1",
+    "webpack": "~4.20.2",
+    "webpack-cli": "~3.1.2"
+  },
+  "scripts": {
+    "webpack": "webpack --config webpack.config.js --mode production",
+    "webpack-dev": "webpack --config webpack.config.js --mode development",
+    "webpack-watch": "webpack --config webpack.config.js --mode development --watch"
+  },
+  "author": "Jared Wiltshire <jared@infiniteautomation.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jazdw/mango-webpack-user-module.git"
+  }
+}
